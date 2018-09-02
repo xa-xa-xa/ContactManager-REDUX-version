@@ -8,6 +8,7 @@ import axios from 'axios';
 
 class Contact extends Component {
   // static propTypes = {
+
   //   name: PropTypes.string.isRequired,
   //   email: PropTypes.string.isRequired,
   //   phone: PropTypes.string.isRequired
@@ -16,7 +17,7 @@ class Contact extends Component {
   // state = {
   //   // toggling state onClick wiht dedicated funcrtion
   //   showConctactInfo: true // toggling state onClick wiht dedicated funcrtion
-  // }; // toggling state onClick wiht dedicated funcrtion
+  // }; // toggli"ng state onClick wiht dedicated funcrtion
 
   //  use bind() - inside a function */
   // constructor() { //*****also to bind outside a funtion

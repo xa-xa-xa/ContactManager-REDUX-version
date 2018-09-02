@@ -17,6 +17,7 @@ import { Provider } from './context';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+// TEST
 
 class App extends Component {
   render() {
