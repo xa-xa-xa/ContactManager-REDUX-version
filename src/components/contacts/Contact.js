@@ -4,38 +4,7 @@ import PropTypes from 'prop-types';
 import { Consumer } from '../../context';
 import axios from 'axios';
 
-// import "./contact.css";
-
 class Contact extends Component {
-  // static propTypes = {
-
-  //   name: PropTypes.string.isRequired,
-  //   email: PropTypes.string.isRequired,
-  //   phone: PropTypes.string.isRequired
-  // }; -- same thing as bellow
-
-  // state = {
-  //   // toggling state onClick wiht dedicated funcrtion
-  //   showConctactInfo: true // toggling state onClick wiht dedicated funcrtion
-  // }; // toggli"ng state onClick wiht dedicated funcrtion
-
-  //  use bind() - inside a function */
-  // constructor() { //*****also to bind outside a funtion
-  //   super();//*****also to bind outside a funtion
-  //   this.state = {};//*****also to bind outside a funtion
-
-  // this.onShowClick = this.onShowClick.bind(this);//*****also to bind outside a funtion
-  // }//*****also to bind outside a funtion
-
-  // onShowClick() {
-  //   console.log(this.state); /*  use bind() - inside a function */
-  //   //*****also to bind outside a funtion
-  // }
-
-  // onShowClick = e => { // toggling state onClick wiht dedicated funcrtion
-  //   this.setState({ showConctactInfo: !this.state.showConctactInfo }); // toggling state onClick wiht dedicated funcrtion
-  // }; // toggling state onClick wiht dedicated funcrtion
-
   state = {
     showContactInfo: false
   };
@@ -106,9 +75,6 @@ class Contact extends Component {
 }
 
 Contact.propTypes = {
-  // name: PropTypes.string.isRequired, // this is optional if we are using single values from ./Contacts.js
-  // email: PropTypes.string.isRequired, // this is optional if we are using single values from ./Contacts.js
-  // phone: PropTypes.string.isRequired // this is optional if we are using single values from ./Contacts.js
   contact: PropTypes.object.isRequired
 };
 export default Contact;
